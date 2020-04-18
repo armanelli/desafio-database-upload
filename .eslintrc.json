@@ -25,12 +25,18 @@
   ],
   "rules": {
     "no-underscore-dangle": "off",
+    "no-await-in-loop": "off",
+    "guard-for-in": "off",
+    "no-restricted-syntax": "off",
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
     "@typescript-eslint/camelcase": "off",
-    "@typescript-eslint/no-unused-vars": ["error", {
-      "argsIgnorePattern": "_"
-    }],
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "_"
+      }
+    ],
     "import/extensions": [
       "error",
       "ignorePackages",
